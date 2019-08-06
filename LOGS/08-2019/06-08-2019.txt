@@ -1,0 +1,863 @@
+thuphieudiem---06/08/2019 09:07:54---UPDATE `tbl_goi` SET `stt` = 8
+WHERE `ban` = 'ban5'
+
+
+thuphieudiem---06/08/2019 09:07:54---UPDATE `tbl_goi` SET `stt` = '2'
+WHERE `ban` = 'ban2'
+
+
+thuphieudiem---06/08/2019 09:07:54---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2', `stt` = '2'
+WHERE `soBD` = '19001120'
+
+
+thuphieudiem---06/08/2019 09:07:54---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-08-06 09:07:54', `trangthai` = 1
+WHERE `soBD` = '19001120'
+
+
+tragiaybao---06/08/2019 09:09:17---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = 'tragiaybao', `thoigian_tragiaybao` = '2019/08/06 09:09:17', `trangthai` = 2
+WHERE `soBD` = '19001120'
+
+
+tragiaybao---06/08/2019 09:09:17---UPDATE `tbl_goi` SET `stt` = '8'
+WHERE `ban` = 'buoc5'
+
+
+tragiaybao---06/08/2019 09:09:17---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc5', `stt` = '8'
+WHERE `soBD` = '19001120'
+
+
+thuhoso---06/08/2019 09:10:43---UPDATE `tbl_sinhvien` SET `masv` = '19A12010001'
+WHERE `soBD` = '19001120'
+
+
+thuhoso---06/08/2019 09:10:43---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001120', 'hstt,gbnh', 'thuhoso', '2019/08/06 09:10:43')
+
+
+thuhoso---06/08/2019 09:10:43---UPDATE `tbl_sinhvien` SET `hoso` = 'hstt,gbnh', `nguoithuhs` = 'thuhoso', `thoigian_thuhs` = '2019/08/06 09:10:43', `trangthai` = 3
+WHERE `soBD` = '19001120'
+
+
+thuhoso---06/08/2019 09:12:41---UPDATE `tbl_goi` SET `stt` = '9'
+WHERE `ban` = 'buoc7'
+
+
+thuhoso---06/08/2019 09:12:41---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc7', `stt` = '9'
+WHERE `soBD` = '19001120'
+
+
+tiepdon---06/08/2019 09:17:38---UPDATE `tbl_goi` SET `stt` = 9
+WHERE `ban` = 'ban5'
+
+
+tiepdon---06/08/2019 09:17:38---UPDATE `tbl_goi` SET `stt` = '3'
+WHERE `ban` = 'ban2'
+
+
+tiepdon---06/08/2019 09:17:38---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2', `stt` = '3'
+WHERE `soBD` = '19001120'
+
+
+tragiaybao---06/08/2019 09:18:34---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = 'tragiaybao', `thoigian_tragiaybao` = '2019/08/06 09:18:34'
+WHERE `soBD` = '19001120'
+
+
+tragiaybao---06/08/2019 09:18:34---UPDATE `tbl_goi` SET `stt` = '9'
+WHERE `ban` = 'buoc5'
+
+
+tragiaybao---06/08/2019 09:18:34---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc5', `stt` = '9'
+WHERE `soBD` = '19001120'
+
+
+thuhoso---06/08/2019 09:19:04---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001120', 'bshb', 'thuhoso', '2019/08/06 09:19:04')
+
+
+thuhoso---06/08/2019 09:19:04---UPDATE `tbl_sinhvien` SET `hoso` = 'hstt,gbnh,bshb', `nguoithuhs` = 'thuhoso', `thoigian_thuhs` = '2019/08/06 09:19:04', `trangthai` = 3
+WHERE `soBD` = '19001120'
+
+
+thuhoso---06/08/2019 09:19:09---UPDATE `tbl_goi` SET `stt` = '10'
+WHERE `ban` = 'buoc7'
+
+
+thuhoso---06/08/2019 09:19:09---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc7', `stt` = '10'
+WHERE `soBD` = '19001120'
+
+
+thutaichinh1---06/08/2019 09:22:08---INSERT INTO `hocphi_sinhvien` (`tamthu_hp1`, `tamthu_hp2`, `tamthu_sk`, `tamthu_the`, `tamthu_yt`, `tamthu_tt1`, `tamthu_tt2`, `masv`, `hocphi`, `nguoithu_hocphi`, `thoigian_thuhp`, `tongtien_thu`, `ghichu`, `soquyen`, `lanthu`, `pos`) VALUES ('6920000', 0, '', '', '', '170000', 0, '19A12010001', 'hp1,tt1', 'thutaichinh1', '2019/08/06 09:22:08', '7090000', '1111', '1', '1', '')
+
+
+thutaichinh1---06/08/2019 09:22:08---UPDATE `tbl_sinhvien` SET `hocphi` = 'hp1,tt1', `nguoithu_hocphi` = 'thutaichinh1', `nguoithuhp_nh` = '1111', `thoigian_hocphi` = '2019/08/06 09:22:08', `trangthai` = 4, `tongtien_dathu` = 7090000
+WHERE `masv` = '19A12010001'
+
+
+thutaichinh1---06/08/2019 09:22:08---UPDATE `dm_canbo` SET `so` = 23
+WHERE `macb` = 'thutaichinh1'
+
+
+thutaichinh1---06/08/2019 09:22:08---UPDATE `hocphi_sinhvien` SET `so` = '22'
+WHERE `masv` = '19A12010001'
+AND `hocphi` = 'hp1,tt1'
+
+
+---06/08/2019 09:36:18---INSERT INTO `hocphi_sinhvien` (`nguoiin_giaycamdoan`, `thoigianin_giaycamdoan`, `masv`) VALUES (NULL, '06/08/2019 09:36:18', '19A12010001')
+
+
+admin---06/08/2019 09:37:14---UPDATE `tbl_sinhvien` SET `masv` = '19A44010004'
+WHERE `soBD` = '19001117'
+
+
+admin---06/08/2019 09:42:02---UPDATE `tbl_sinhvien` SET `masv` = '19A44010005'
+WHERE `soBD` = '19001117'
+
+
+admin---06/08/2019 09:43:27---UPDATE `tbl_sinhvien` SET `masv` = '19A44010006'
+WHERE `soBD` = '19001117'
+
+
+admin---06/08/2019 09:44:07---UPDATE `tbl_sinhvien` SET `masv` = '19A44010007'
+WHERE `soBD` = '19001117'
+
+
+thuhoso---06/08/2019 10:45:44---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_hoso`, `thoigian_thuhs`, `ghichu`) VALUES ('19001117', 'thuhoso', '2019/08/06 10:45:44', 'Không tích hồ sơ nào!')
+
+
+admin---06/08/2019 11:30:57---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001118', 'bsks,cntn', 'admin', '2019/08/06 11:30:57')
+
+
+admin---06/08/2019 11:30:57---UPDATE `tbl_sinhvien` SET `hoso` = 'hstt,gbnh,bshb,bsks,cntn', `nguoithuhs` = 'admin', `thoigian_thuhs` = '2019/08/06 11:30:57'
+WHERE `soBD` = '19001118'
+
+
+thuhoso---06/08/2019 11:40:28---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001117', 'thuhoso', '06/08/2019 11:40:28')
+
+
+thuhoso---06/08/2019 11:41:21---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001117', 'thuhoso', '06/08/2019 11:41:21')
+
+
+thuhoso---06/08/2019 12:33:42---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001117', 'thuhoso', '06/08/2019 12:33:42')
+
+
+thuhoso---06/08/2019 12:35:08---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001117', 'thuhoso', '06/08/2019 12:35:08')
+
+
+thuhoso---06/08/2019 12:35:32---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001117', 'hstt', 'thuhoso', '2019/08/06 12:35:31')
+
+
+thuhoso---06/08/2019 12:35:32---UPDATE `tbl_sinhvien` SET `hoso` = 'hstt', `nguoithuhs` = 'thuhoso', `thoigian_thuhs` = '2019/08/06 12:35:31'
+WHERE `soBD` = '19001117'
+
+
+thutaichinh---06/08/2019 13:22:28---INSERT INTO `hocphi_sinhvien` (`tamthu_hp1`, `tamthu_hp2`, `tamthu_sk`, `tamthu_the`, `tamthu_yt`, `tamthu_tt1`, `tamthu_tt2`, `masv`, `hocphi`, `nguoithu_hocphi`, `thoigian_thuhp`, `tongtien_thu`, `ghichu`, `soquyen`, `lanthu`, `pos`) VALUES ('', 0, '150000', '', '', '', 0, '19A12010001', 'sk', 'thutaichinh', '2019/08/06 13:22:28', '150000', 'Yên', '0', '2', '')
+
+
+thutaichinh---06/08/2019 13:22:28---UPDATE `tbl_sinhvien` SET `hocphi` = 'hp1,tt1,sk', `nguoithu_hocphi` = 'thutaichinh', `nguoithuhp_nh` = 'Yên', `thoigian_hocphi` = '2019/08/06 13:22:28', `trangthai` = 4, `tongtien_dathu` = 7240000
+WHERE `masv` = '19A12010001'
+
+
+thutaichinh---06/08/2019 13:22:28---UPDATE `dm_canbo` SET `so` = 7
+WHERE `macb` = 'thutaichinh'
+
+
+thutaichinh---06/08/2019 13:22:28---UPDATE `hocphi_sinhvien` SET `so` = '6'
+WHERE `masv` = '19A12010001'
+AND `hocphi` = 'sk'
+
+
+thutaichinh---06/08/2019 13:23:56---INSERT INTO `hocphi_sinhvien` (`tamthu_hp1`, `tamthu_hp2`, `tamthu_sk`, `tamthu_the`, `tamthu_yt`, `tamthu_tt1`, `tamthu_tt2`, `masv`, `hocphi`, `nguoithu_hocphi`, `thoigian_thuhp`, `tongtien_thu`, `ghichu`, `soquyen`, `lanthu`, `pos`) VALUES ('', 0, '', '', '704025', '', 0, '19A12010001', 'yt', 'thutaichinh', '2019/08/06 13:23:56', '704025', 'Yên', '0', '3', '')
+
+
+thutaichinh---06/08/2019 13:23:56---UPDATE `tbl_sinhvien` SET `hocphi` = 'hp1,tt1,sk,yt', `nguoithu_hocphi` = 'thutaichinh', `nguoithuhp_nh` = 'Yên', `thoigian_hocphi` = '2019/08/06 13:23:56', `trangthai` = 4, `tongtien_dathu` = 7944025
+WHERE `masv` = '19A12010001'
+
+
+thutaichinh---06/08/2019 13:23:56---UPDATE `dm_canbo` SET `so` = 8
+WHERE `macb` = 'thutaichinh'
+
+
+thutaichinh---06/08/2019 13:23:56---UPDATE `hocphi_sinhvien` SET `so` = '7'
+WHERE `masv` = '19A12010001'
+AND `hocphi` = 'yt'
+
+
+---06/08/2019 13:25:22---UPDATE `tbl_sinhvien` SET `noisinh` = '', `ngaycapcmnd` = '16/07/2017', `noicapcmnd` = 'Bắc Ninh', `gioitinh` = 'Nam', `doan` = 'Đoàn', `FK_tongiao` = 'khong', `quequan` = '', `hokhau` = '', `FK_Dantoc` = '29', `diachi` = '', `chucvu` = '', `nangkhieu` = '', `noitotnghiep` = '', `email` = '', `sdt` = '0953484656', `hoten_bo` = 'Nguyễn Văn A', `namsinh_bo` = '1980', `nghenghiep_bo` = 'Làm Nông', `sdt_bo` = '018238129', `hoten_me` = 'Nguyễn Thị B', `namsinh_me` = '1980', `nghenghiep_me` = 'Làm Nông', `sdt_me` = '098218213', `tinh` = '27', `huyen` = '259', `xa` = '09259'
+WHERE `soBD` = '19001194'
+
+
+---06/08/2019 13:26:56---UPDATE `tbl_sinhvien` SET `noisinh` = '', `ngaycapcmnd` = '16/07/2017', `noicapcmnd` = 'Bắc Ninh', `gioitinh` = 'Nam', `doan` = 'Đoàn', `FK_tongiao` = 'khong', `quequan` = '', `hokhau` = '', `FK_Dantoc` = '29', `diachi` = '', `chucvu` = '', `nangkhieu` = '', `noitotnghiep` = '', `email` = '', `sdt` = '0953484656', `hoten_bo` = 'Nguyễn Văn A', `namsinh_bo` = '1980', `nghenghiep_bo` = 'Làm Nông', `sdt_bo` = '018238129', `hoten_me` = 'Nguyễn Thị B', `namsinh_me` = '1980', `nghenghiep_me` = 'Làm Nông', `sdt_me` = '098218213', `tinh` = '27', `huyen` = '259', `xa` = '09259'
+WHERE `soBD` = '19001194'
+
+
+cntt---06/08/2019 13:27:02---UPDATE `dm_canbo` SET `matkhau` = 'da4b9237bacccdf19c0760cab7aec4a8359010b0'
+WHERE `macb` = 'cntt'
+
+
+cntt---06/08/2019 13:27:49---UPDATE `dm_canbo` SET `matkhau` = '356a192b7913b04c54574d18c28d46e6395428ab'
+WHERE `macb` = 'cntt'
+
+
+thuphieudiem---06/08/2019 13:28:41---UPDATE `tbl_goi` SET `stt` = 10
+WHERE `ban` = 'ban5'
+
+
+thuphieudiem---06/08/2019 13:28:41---UPDATE `tbl_goi` SET `stt` = '2'
+WHERE `ban` = 'ban4'
+
+
+thuphieudiem---06/08/2019 13:28:41---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2', `stt` = '2'
+WHERE `soBD` = '19001194'
+
+
+thuphieudiem---06/08/2019 13:28:41---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-08-06 13:28:41', `trangthai` = 1
+WHERE `soBD` = '19001194'
+
+
+---06/08/2019 13:30:06---UPDATE `tbl_sinhvien` SET `noisinh` = '', `ngaycapcmnd` = '16/07/2017', `noicapcmnd` = 'Bắc Ninh', `gioitinh` = 'Nam', `doan` = 'Chưa', `FK_tongiao` = 'khong', `quequan` = '', `hokhau` = '', `FK_Dantoc` = '29', `diachi` = '', `chucvu` = '', `nangkhieu` = '', `noitotnghiep` = '', `email` = '', `sdt` = '0954568385', `hoten_bo` = '', `namsinh_bo` = '1980', `nghenghiep_bo` = 'Làm Nông', `sdt_bo` = '018238129', `hoten_me` = 'Nguyễn Thị B', `namsinh_me` = '1980', `nghenghiep_me` = 'Làm Nông', `sdt_me` = '098218213', `tinh` = NULL, `huyen` = NULL, `xa` = NULL
+WHERE `soBD` = '19001199'
+
+
+thuphieudiem---06/08/2019 13:30:25---UPDATE `tbl_goi` SET `stt` = 11
+WHERE `ban` = 'ban5'
+
+
+thuphieudiem---06/08/2019 13:30:25---UPDATE `tbl_goi` SET `stt` = '4'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---06/08/2019 13:30:25---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2', `stt` = '4'
+WHERE `soBD` = '19001199'
+
+
+thuphieudiem---06/08/2019 13:30:25---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-08-06 13:30:25', `trangthai` = 1
+WHERE `soBD` = '19001199'
+
+
+---06/08/2019 13:31:17---UPDATE `tbl_sinhvien` SET `noisinh` = '', `ngaycapcmnd` = '17/07/2019', `noicapcmnd` = 'Bắc Ninh', `gioitinh` = 'Nữ', `doan` = 'Chưa', `FK_tongiao` = 'khong', `quequan` = '', `hokhau` = '', `FK_Dantoc` = '29', `diachi` = '', `chucvu` = '', `nangkhieu` = '', `noitotnghiep` = '', `email` = '', `sdt` = '0954568385', `hoten_bo` = '', `namsinh_bo` = '1980', `nghenghiep_bo` = 'Làm Nông', `sdt_bo` = '018238129', `hoten_me` = 'Nguyễn Thị B', `namsinh_me` = '1980', `nghenghiep_me` = 'Làm Nông', `sdt_me` = '098218213', `tinh` = NULL, `huyen` = NULL, `xa` = NULL
+WHERE `soBD` = '19001196'
+
+
+thuphieudiem---06/08/2019 13:31:32---UPDATE `tbl_goi` SET `stt` = 12
+WHERE `ban` = 'ban5'
+
+
+thuphieudiem---06/08/2019 13:31:32---UPDATE `tbl_goi` SET `stt` = '5'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---06/08/2019 13:31:32---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2', `stt` = '5'
+WHERE `soBD` = '19001196'
+
+
+thuphieudiem---06/08/2019 13:31:32---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-08-06 13:31:32', `trangthai` = 1
+WHERE `soBD` = '19001196'
+
+
+tragiaybao1---06/08/2019 13:32:45---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = 'tragiaybao1', `thoigian_tragiaybao` = '2019/08/06 13:32:45', `trangthai` = 2
+WHERE `soBD` = '19001194'
+
+
+tragiaybao1---06/08/2019 13:32:45---UPDATE `tbl_goi` SET `stt` = '10'
+WHERE `ban` = 'buoc5'
+
+
+tragiaybao1---06/08/2019 13:32:45---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc5', `stt` = '10'
+WHERE `soBD` = '19001194'
+
+
+tragiaybao1---06/08/2019 13:32:56---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = 'tragiaybao1', `thoigian_tragiaybao` = '2019/08/06 13:32:56', `trangthai` = 2
+WHERE `soBD` = '19001196'
+
+
+tragiaybao1---06/08/2019 13:32:56---UPDATE `tbl_goi` SET `stt` = '11'
+WHERE `ban` = 'buoc5'
+
+
+tragiaybao1---06/08/2019 13:32:56---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc5', `stt` = '11'
+WHERE `soBD` = '19001196'
+
+
+tragiaybao1---06/08/2019 13:33:01---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = 'tragiaybao1', `thoigian_tragiaybao` = '2019/08/06 13:33:01', `trangthai` = 2
+WHERE `soBD` = '19001199'
+
+
+tragiaybao1---06/08/2019 13:33:01---UPDATE `tbl_goi` SET `stt` = '12'
+WHERE `ban` = 'buoc5'
+
+
+tragiaybao1---06/08/2019 13:33:01---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc5', `stt` = '12'
+WHERE `soBD` = '19001199'
+
+
+tragiaybao1---06/08/2019 13:33:05---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = 'tragiaybao1', `thoigian_tragiaybao` = '2019/08/06 13:33:05', `trangthai` = 2
+WHERE `soBD` = '19001199'
+
+
+tragiaybao1---06/08/2019 13:33:05---UPDATE `tbl_goi` SET `stt` = '13'
+WHERE `ban` = 'buoc5'
+
+
+tragiaybao1---06/08/2019 13:33:05---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc5', `stt` = '13'
+WHERE `soBD` = '19001199'
+
+
+thuhoso---06/08/2019 13:34:11---UPDATE `tbl_goi` SET `goi` = 12
+WHERE `ban` = 'buoc5'
+
+
+thuhoso---06/08/2019 13:34:35---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001117', 'gbnh', 'thuhoso', '2019/08/06 13:34:35')
+
+
+thuhoso---06/08/2019 13:34:35---UPDATE `tbl_sinhvien` SET `hoso` = 'hstt,gbnh', `nguoithuhs` = 'thuhoso', `thoigian_thuhs` = '2019/08/06 13:34:35'
+WHERE `soBD` = '19001117'
+
+
+thuhoso---06/08/2019 13:35:31---UPDATE `tbl_sinhvien` SET `masv` = '19A15010002'
+WHERE `soBD` = '19001194'
+
+
+thuhoso---06/08/2019 13:35:31---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001194', 'hstt,bstn,xnvm', 'thuhoso', '2019/08/06 13:35:31')
+
+
+thuhoso---06/08/2019 13:35:31---UPDATE `tbl_sinhvien` SET `hoso` = 'hstt,bstn,xnvm', `nguoithuhs` = 'thuhoso', `thoigian_thuhs` = '2019/08/06 13:35:31', `trangthai` = 3
+WHERE `soBD` = '19001194'
+
+
+admin---06/08/2019 13:36:06---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001116', 'bsks,cntn', 'admin', '2019/08/06 13:36:06')
+
+
+admin---06/08/2019 13:36:06---UPDATE `tbl_sinhvien` SET `hoso` = 'hstt,gbnh,bshb,bsks,cntn', `nguoithuhs` = 'admin', `thoigian_thuhs` = '2019/08/06 13:36:06'
+WHERE `soBD` = '19001116'
+
+
+thuhoso1---06/08/2019 13:37:19---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001194', 'gbnh,bshb', 'thuhoso1', '2019/08/06 13:37:19')
+
+
+thuhoso1---06/08/2019 13:37:19---UPDATE `tbl_sinhvien` SET `hoso` = 'hstt,bstn,xnvm,gbnh,bshb', `nguoithuhs` = 'thuhoso1', `thoigian_thuhs` = '2019/08/06 13:37:19', `trangthai` = 3
+WHERE `soBD` = '19001194'
+
+
+admin---06/08/2019 13:37:42---UPDATE `tbl_sinhvien` SET `masv` = '19A61010002'
+WHERE `soBD` = '19001116'
+
+
+admin---06/08/2019 13:38:21---UPDATE `tbl_sinhvien` SET `masv` = '19A61010003'
+WHERE `soBD` = '19001116'
+
+
+thuhoso1---06/08/2019 13:38:51---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001194', 'cntn', 'thuhoso1', '2019/08/06 13:38:51')
+
+
+thuhoso1---06/08/2019 13:38:51---UPDATE `tbl_sinhvien` SET `hoso` = 'hstt,bstn,xnvm,gbnh,bshb,cntn', `nguoithuhs` = 'thuhoso1', `thoigian_thuhs` = '2019/08/06 13:38:51', `trangthai` = 3
+WHERE `soBD` = '19001194'
+
+
+thuhoso1---06/08/2019 13:39:29---UPDATE `tbl_sinhvien` SET `masv` = '19A61010004'
+WHERE `soBD` = '19001196'
+
+
+thuhoso1---06/08/2019 13:39:29---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001196', 'hstt,gbnh', 'thuhoso1', '2019/08/06 13:39:29')
+
+
+thuhoso1---06/08/2019 13:39:29---UPDATE `tbl_sinhvien` SET `hoso` = 'hstt,gbnh', `nguoithuhs` = 'thuhoso1', `thoigian_thuhs` = '2019/08/06 13:39:29', `trangthai` = 3
+WHERE `soBD` = '19001196'
+
+
+thuhoso1---06/08/2019 13:40:26---UPDATE `tbl_sinhvien` SET `masv` = '19A12010002'
+WHERE `soBD` = '19001199'
+
+
+thuhoso1---06/08/2019 13:40:26---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001199', 'gbnh,bshb', 'thuhoso1', '2019/08/06 13:40:26')
+
+
+thuhoso1---06/08/2019 13:40:26---UPDATE `tbl_sinhvien` SET `hoso` = 'gbnh,bshb', `nguoithuhs` = 'thuhoso1', `thoigian_thuhs` = '2019/08/06 13:40:26', `trangthai` = 3
+WHERE `soBD` = '19001199'
+
+
+---06/08/2019 13:40:36---UPDATE `tbl_sinhvien` SET `noisinh` = 'Hà Nội', `ngaycapcmnd` = '16/07/2017', `noicapcmnd` = 'Bắc Ninh', `gioitinh` = 'Nam', `doan` = 'Đoàn', `FK_tongiao` = 'khac', `quequan` = 'Quảng Ninh', `hokhau` = 'Quảng Ninh', `FK_Dantoc` = '31', `diachi` = 'Hoàng Mai', `chucvu` = 'Lớp phó', `nangkhieu` = '', `noitotnghiep` = 'THPT Lạng Giang 2', `email` = 'linh@gmail.com', `sdt` = '0353999876', `hoten_bo` = 'Nguyễn Văn Sơn', `namsinh_bo` = '1977', `nghenghiep_bo` = 'Làm Nông', `sdt_bo` = '018238129', `hoten_me` = 'Nguyễn Thị B', `namsinh_me` = '1975', `nghenghiep_me` = 'Làm Nông', `sdt_me` = '098218213', `tinh` = '04', `huyen` = '044', `xa` = '01369'
+WHERE `soBD` = '19001193'
+
+
+thuphieudiem---06/08/2019 13:41:31---UPDATE `tbl_goi` SET `stt` = 13
+WHERE `ban` = 'ban5'
+
+
+thuphieudiem---06/08/2019 13:41:31---UPDATE `tbl_goi` SET `stt` = '6'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---06/08/2019 13:41:31---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2', `stt` = '6'
+WHERE `soBD` = '19001193'
+
+
+thuphieudiem---06/08/2019 13:41:31---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-08-06 13:41:31', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001193'
+
+
+thutaichinh1---06/08/2019 13:43:19---INSERT INTO `hocphi_sinhvien` (`nguoiin_giaycamdoan`, `thoigianin_giaycamdoan`, `masv`) VALUES ('thutaichinh1', '06/08/2019 13:43:19', '19A61010003')
+
+
+tragiaybao---06/08/2019 13:44:55---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = 'tragiaybao', `thoigian_tragiaybao` = '2019/08/06 13:44:55', `trangthai` = 2
+WHERE `soBD` = '19001193'
+
+
+tragiaybao---06/08/2019 13:44:55---UPDATE `tbl_sinhvien` SET `buoctiep` = 'boqua', `stt` = ''
+WHERE `soBD` = '19001193'
+
+
+tragiaybao---06/08/2019 13:45:10---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = NULL, `thoigian_tragiaybao` = NULL, `trangthai` = 1
+WHERE `soBD` = '19001193'
+
+
+tragiaybao---06/08/2019 13:45:10---UPDATE `tbl_goi` SET `stt` = 14
+WHERE `ban` = 'ban5'
+
+
+tragiaybao---06/08/2019 13:45:10---UPDATE `tbl_goi` SET `stt` = '7'
+WHERE `ban` = 'ban3'
+
+
+tragiaybao---06/08/2019 13:45:10---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2', `stt` = '7'
+WHERE `soBD` = '19001193'
+
+
+tragiaybao---06/08/2019 13:45:18---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = 'tragiaybao', `thoigian_tragiaybao` = '2019/08/06 13:45:18', `trangthai` = 2
+WHERE `soBD` = '19001193'
+
+
+tragiaybao---06/08/2019 13:45:18---UPDATE `tbl_sinhvien` SET `buoctiep` = 'boqua', `stt` = ''
+WHERE `soBD` = '19001193'
+
+
+---06/08/2019 13:45:42---UPDATE `tbl_sinhvien` SET `noisinh` = 'Hà Nội', `ngaycapcmnd` = '16/07/2017', `noicapcmnd` = 'Bắc Ninh', `gioitinh` = 'Nam', `doan` = 'Đoàn', `FK_tongiao` = 'khac', `quequan` = 'Quảng Ninh', `hokhau` = 'Quảng Ninh', `FK_Dantoc` = '31', `diachi` = 'Hoàng Mai', `chucvu` = 'Lớp phó', `nangkhieu` = '', `noitotnghiep` = 'THPT Lạng Giang 2', `email` = 'linh@gmail.com', `sdt` = '0353999876', `hoten_bo` = 'Nguyễn Văn Sơn', `namsinh_bo` = '1977', `nghenghiep_bo` = 'Làm Nông', `sdt_bo` = '018238129', `hoten_me` = 'Nguyễn Thị Bình', `namsinh_me` = '1975', `nghenghiep_me` = 'Làm Nông', `sdt_me` = '098218213', `tinh` = '04', `huyen` = '044', `xa` = '01369'
+WHERE `soBD` = '19001193'
+
+
+thuphieudiem---06/08/2019 13:47:25---UPDATE `tbl_goi` SET `stt` = 15
+WHERE `ban` = 'ban5'
+
+
+thuphieudiem---06/08/2019 13:47:25---UPDATE `tbl_goi` SET `stt` = '8'
+WHERE `ban` = 'ban3'
+
+
+thuphieudiem---06/08/2019 13:47:25---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2', `stt` = '8'
+WHERE `soBD` = '19001193'
+
+
+tragiaybao1---06/08/2019 13:48:34---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = 'tragiaybao1', `thoigian_tragiaybao` = '2019/08/06 13:48:34', `trangthai` = 2
+WHERE `soBD` = '19001193'
+
+
+tragiaybao1---06/08/2019 13:48:34---UPDATE `tbl_sinhvien` SET `buoctiep` = 'boqua', `stt` = ''
+WHERE `soBD` = '19001193'
+
+
+tragiaybao1---06/08/2019 13:49:24---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = NULL, `thoigian_tragiaybao` = NULL, `trangthai` = 1
+WHERE `soBD` = '19001193'
+
+
+tragiaybao1---06/08/2019 13:49:24---UPDATE `tbl_goi` SET `stt` = 16
+WHERE `ban` = 'ban5'
+
+
+tragiaybao1---06/08/2019 13:49:24---UPDATE `tbl_goi` SET `stt` = '9'
+WHERE `ban` = 'ban3'
+
+
+tragiaybao1---06/08/2019 13:49:24---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2', `stt` = '9'
+WHERE `soBD` = '19001193'
+
+
+tragiaybao1---06/08/2019 13:49:31---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = 'tragiaybao1', `thoigian_tragiaybao` = '2019/08/06 13:49:31', `trangthai` = 2
+WHERE `soBD` = '19001193'
+
+
+tragiaybao1---06/08/2019 13:49:31---UPDATE `tbl_goi` SET `stt` = '14'
+WHERE `ban` = 'buoc5'
+
+
+tragiaybao1---06/08/2019 13:49:31---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc5', `stt` = '14'
+WHERE `soBD` = '19001193'
+
+
+thuhoso---06/08/2019 13:53:01---UPDATE `tbl_sinhvien` SET `masv` = '19A12010003'
+WHERE `soBD` = '19001193'
+
+
+thuhoso---06/08/2019 13:53:01---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001193', 'hstt,gbnh,bshb', 'thuhoso', '2019/08/06 13:53:01')
+
+
+thuhoso---06/08/2019 13:53:01---UPDATE `tbl_sinhvien` SET `hoso` = 'hstt,gbnh,bshb', `nguoithuhs` = 'thuhoso', `thoigian_thuhs` = '2019/08/06 13:53:01', `trangthai` = 3
+WHERE `soBD` = '19001193'
+
+
+thuhoso---06/08/2019 13:54:21---UPDATE `tbl_goi` SET `stt` = '11'
+WHERE `ban` = 'buoc7'
+
+
+thuhoso---06/08/2019 13:54:21---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc7', `stt` = '11'
+WHERE `soBD` = '19001193'
+
+
+thutaichinh1---06/08/2019 14:02:03---INSERT INTO `hocphi_sinhvien` (`tamthu_hp1`, `tamthu_hp2`, `tamthu_sk`, `tamthu_the`, `tamthu_yt`, `tamthu_tt1`, `tamthu_tt2`, `masv`, `hocphi`, `nguoithu_hocphi`, `thoigian_thuhp`, `tongtien_thu`, `ghichu`, `soquyen`, `lanthu`, `pos`) VALUES ('6000000', 0, '150000', '', '704025', '170000', 0, '19A12010003', 'hp1,sk,yt,tt1', 'thutaichinh1', '2019/08/06 14:02:03', '7024025', 'Tuyên Đỗ', '1', '1', '')
+
+
+thutaichinh1---06/08/2019 14:02:03---UPDATE `tbl_sinhvien` SET `hocphi` = 'hp1,sk,yt,tt1', `nguoithu_hocphi` = 'thutaichinh1', `nguoithuhp_nh` = 'Tuyên Đỗ', `thoigian_hocphi` = '2019/08/06 14:02:03', `trangthai` = 4, `tongtien_dathu` = 7024025
+WHERE `masv` = '19A12010003'
+
+
+thutaichinh1---06/08/2019 14:02:03---UPDATE `dm_canbo` SET `so` = 24
+WHERE `macb` = 'thutaichinh1'
+
+
+thutaichinh1---06/08/2019 14:02:03---UPDATE `hocphi_sinhvien` SET `so` = '23'
+WHERE `masv` = '19A12010003'
+AND `hocphi` = 'hp1,sk,yt,tt1'
+
+
+thutaichinh1---06/08/2019 14:02:56---INSERT INTO `hocphi_sinhvien` (`nguoiin_giaycamdoan`, `thoigianin_giaycamdoan`, `masv`) VALUES ('thutaichinh1', '06/08/2019 14:02:56', '19A12010003')
+
+
+thutaichinh1---06/08/2019 14:03:17---INSERT INTO `hocphi_sinhvien` (`nguoiin_giaycamdoan`, `thoigianin_giaycamdoan`, `masv`) VALUES ('thutaichinh1', '06/08/2019 14:03:17', '19A61010003')
+
+
+thutaichinh1---06/08/2019 14:04:01---INSERT INTO `hocphi_sinhvien` (`nguoiin_giaycamdoan`, `thoigianin_giaycamdoan`, `masv`) VALUES ('thutaichinh1', '06/08/2019 14:04:01', '19A12010003')
+
+
+thutaichinh1---06/08/2019 14:04:37---INSERT INTO `hocphi_sinhvien` (`nguoiin_giaycamdoan`, `thoigianin_giaycamdoan`, `masv`) VALUES ('thutaichinh1', '06/08/2019 14:04:37', '19A12010003')
+
+
+thutaichinh1---06/08/2019 14:05:57---INSERT INTO `hocphi_sinhvien` (`nguoiin_giaycamdoan`, `thoigianin_giaycamdoan`, `masv`) VALUES ('thutaichinh1', '06/08/2019 14:05:57', '19A12010003')
+
+
+thuhoso---06/08/2019 14:06:45---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001194', 'thuhoso', '06/08/2019 14:06:45')
+
+
+thuhoso---06/08/2019 14:06:45---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001194'
+
+
+thuhoso---06/08/2019 14:07:05---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001194', 'thuhoso', '06/08/2019 14:07:05')
+
+
+thuhoso---06/08/2019 14:07:05---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001194'
+
+
+thutaichinh1---06/08/2019 14:07:07---INSERT INTO `hocphi_sinhvien` (`nguoiin_giaycamdoan`, `thoigianin_giaycamdoan`, `masv`) VALUES ('thutaichinh1', '06/08/2019 14:07:07', '19A12010003')
+
+
+thuhoso---06/08/2019 14:08:15---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001194', 'thuhoso', '06/08/2019 14:08:15')
+
+
+thuhoso---06/08/2019 14:08:15---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001194'
+
+
+thutaichinh1---06/08/2019 14:11:49---INSERT INTO `hocphi_sinhvien` (`nguoiin_giaycamdoan`, `thoigianin_giaycamdoan`, `masv`) VALUES ('thutaichinh1', '06/08/2019 14:11:49', '19A12010003')
+
+
+thuhoso---06/08/2019 14:13:29---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001199', 'bsks,cntn', 'thuhoso', '2019/08/06 14:13:29')
+
+
+thuhoso---06/08/2019 14:13:29---UPDATE `tbl_sinhvien` SET `hoso` = 'gbnh,bshb,bsks,cntn', `nguoithuhs` = 'thuhoso', `thoigian_thuhs` = '2019/08/06 14:13:29', `trangthai` = 3
+WHERE `soBD` = '19001199'
+
+
+thuhoso---06/08/2019 14:15:30---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001196', 'bshb,bsks', 'thuhoso', '2019/08/06 14:15:30')
+
+
+thuhoso---06/08/2019 14:15:30---UPDATE `tbl_sinhvien` SET `hoso` = 'hstt,gbnh,bshb,bsks', `nguoithuhs` = 'thuhoso', `thoigian_thuhs` = '2019/08/06 14:15:30', `trangthai` = 3
+WHERE `soBD` = '19001196'
+
+
+thuhoso---06/08/2019 14:15:51---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001199', 'nvqs,xnvm', 'thuhoso', '2019/08/06 14:15:51')
+
+
+thuhoso---06/08/2019 14:15:51---UPDATE `tbl_sinhvien` SET `hoso` = 'gbnh,bshb,bsks,cntn,nvqs,xnvm', `nguoithuhs` = 'thuhoso', `thoigian_thuhs` = '2019/08/06 14:15:51', `trangthai` = 3
+WHERE `soBD` = '19001199'
+
+
+thuhoso---06/08/2019 14:19:33---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001196', 'bstn,utkv', 'thuhoso', '2019/08/06 14:19:33')
+
+
+thuhoso---06/08/2019 14:19:33---UPDATE `tbl_sinhvien` SET `hoso` = 'hstt,gbnh,bshb,bsks,bstn,utkv', `nguoithuhs` = 'thuhoso', `thoigian_thuhs` = '2019/08/06 14:19:33', `trangthai` = 3
+WHERE `soBD` = '19001196'
+
+
+thuhoso---06/08/2019 14:20:02---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001117', 'cntn,bstn', 'thuhoso', '2019/08/06 14:20:02')
+
+
+thuhoso---06/08/2019 14:20:03---UPDATE `tbl_sinhvien` SET `hoso` = 'hstt,gbnh,cntn,bstn', `nguoithuhs` = 'thuhoso', `thoigian_thuhs` = '2019/08/06 14:20:02'
+WHERE `soBD` = '19001117'
+
+
+admin---06/08/2019 14:21:11---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001199', 'bstn,utkv', 'admin', '2019/08/06 14:21:11')
+
+
+admin---06/08/2019 14:21:11---UPDATE `tbl_sinhvien` SET `hoso` = 'gbnh,bshb,bsks,cntn,nvqs,xnvm,bstn,utkv', `nguoithuhs` = 'admin', `thoigian_thuhs` = '2019/08/06 14:21:11', `trangthai` = 3
+WHERE `soBD` = '19001199'
+
+
+admin---06/08/2019 14:21:56---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001199', 'hstt', 'admin', '2019/08/06 14:21:55')
+
+
+admin---06/08/2019 14:21:56---UPDATE `tbl_sinhvien` SET `hoso` = 'gbnh,bshb,bsks,cntn,nvqs,xnvm,bstn,utkv,hstt', `nguoithuhs` = 'admin', `thoigian_thuhs` = '2019/08/06 14:21:55', `trangthai` = 3
+WHERE `soBD` = '19001199'
+
+
+admin---06/08/2019 14:22:22---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001199', 'hstt,utdt', 'admin', '2019/08/06 14:22:22')
+
+
+admin---06/08/2019 14:22:22---UPDATE `tbl_sinhvien` SET `hoso` = 'gbnh,bshb,bsks,cntn,nvqs,xnvm,bstn,utkv,hstt,hstt,utdt', `nguoithuhs` = 'admin', `thoigian_thuhs` = '2019/08/06 14:22:22', `trangthai` = 3
+WHERE `soBD` = '19001199'
+
+
+admin---06/08/2019 14:22:42---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001196', 'cntn', 'admin', '2019/08/06 14:22:42')
+
+
+admin---06/08/2019 14:22:42---UPDATE `tbl_sinhvien` SET `hoso` = 'hstt,gbnh,bshb,bsks,bstn,utkv,cntn', `nguoithuhs` = 'admin', `thoigian_thuhs` = '2019/08/06 14:22:42', `trangthai` = 3
+WHERE `soBD` = '19001196'
+
+
+admin---06/08/2019 14:29:53---INSERT INTO `ruthoso_sinhvien` (`masv`, `soBD`, `hp1_tra`, `sk_tra`, `yt_tra`, `tt1_tra`, `tongtra`, `hp1_con`, `sk_con`, `yt_con`, `tt1_con`, `tongcon`, `nguoi_ruthoso`, `thoigian_ruthoso`) VALUES ('19A12010003', '19001193', '1000000', '0', '0', '0', '1000000', '5000000', '0', '0', '0', '5000000', 'Admin', '2019-08-06 14:29:53')
+
+
+admin---06/08/2019 14:29:53---UPDATE `tbl_sinhvien` SET `trangthai` = 5, `tongtien_dathu` = 6024025
+WHERE `soBD` = '19001193'
+
+
+admin---06/08/2019 14:32:29---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001117', 'bshb,bsks', 'admin', '2019/08/06 14:32:29')
+
+
+admin---06/08/2019 14:32:29---UPDATE `tbl_sinhvien` SET `hoso` = 'hstt,gbnh,cntn,bstn,bshb,bsks', `nguoithuhs` = 'admin', `thoigian_thuhs` = '2019/08/06 14:32:29'
+WHERE `soBD` = '19001117'
+
+
+admin---06/08/2019 14:32:47---UPDATE `tbl_goi` SET `goi` = 14
+WHERE `ban` = 'buoc5'
+
+
+tiepdon---06/08/2019 14:37:50---UPDATE `tbl_goi` SET `stt` = '15'
+WHERE `ban` = 'buoc5'
+
+
+tiepdon---06/08/2019 14:37:50---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc5', `stt` = '15'
+WHERE `soBD` = '19001194'
+
+
+thuhoso---06/08/2019 14:38:17---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001194', 'utdt,nvqs', 'thuhoso', '2019/08/06 14:38:17')
+
+
+thuhoso---06/08/2019 14:38:17---UPDATE `tbl_sinhvien` SET `hoso` = 'hstt,bstn,xnvm,gbnh,bshb,cntn,utdt,nvqs', `nguoithuhs` = 'thuhoso', `thoigian_thuhs` = '2019/08/06 14:38:17', `trangthai` = 3
+WHERE `soBD` = '19001194'
+
+
+---06/08/2019 14:40:07---UPDATE `tbl_sinhvien` SET `noisinh` = 'Mê Linh', `ngaycapcmnd` = '16/07/2017', `noicapcmnd` = 'Bắc Ninh', `gioitinh` = 'Nam', `doan` = 'Chưa', `FK_tongiao` = 'khong', `quequan` = 'Quảng Ninh', `hokhau` = 'Quảng Ninh', `FK_Dantoc` = '29', `diachi` = '123456789', `chucvu` = 'Lớp phó', `nangkhieu` = '', `noitotnghiep` = '', `email` = 'hung@gmail.com', `sdt` = '0353999876', `hoten_bo` = 'Nguyễn Văn Sơn', `namsinh_bo` = '1970', `nghenghiep_bo` = 'Làm Nông', `sdt_bo` = '018238129', `hoten_me` = 'Nguyễn Thị Hoa', `namsinh_me` = '1976', `nghenghiep_me` = 'Làm Nông', `sdt_me` = '098218213', `tinh` = '02', `huyen` = '024', `xa` = '00688'
+WHERE `soBD` = '19001110'
+
+
+thuphieudiem---06/08/2019 14:41:26---UPDATE `tbl_goi` SET `stt` = 17
+WHERE `ban` = 'ban5'
+
+
+thuphieudiem---06/08/2019 14:41:26---UPDATE `tbl_goi` SET `stt` = '3'
+WHERE `ban` = 'ban4'
+
+
+thuphieudiem---06/08/2019 14:41:26---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2', `stt` = '3'
+WHERE `soBD` = '19001110'
+
+
+thuphieudiem---06/08/2019 14:41:26---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-08-06 14:41:26', `trangthai` = 1, `buudien` = '1'
+WHERE `soBD` = '19001110'
+
+
+admin---06/08/2019 14:43:11---INSERT INTO `ruthoso_sinhvien` (`masv`, `soBD`, `hp1_tra`, `sk_tra`, `yt_tra`, `tt1_tra`, `tongtra`, `hp1_con`, `sk_con`, `yt_con`, `tt1_con`, `tongcon`, `nguoi_ruthoso`, `thoigian_ruthoso`) VALUES ('19A10010001', '19001111', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', 'Admin', '2019-08-06 14:43:11')
+
+
+admin---06/08/2019 14:43:11---UPDATE `tbl_sinhvien` SET `trangthai` = 5, `tongtien_dathu` = 7944025
+WHERE `soBD` = '19001111'
+
+
+tragiaybao---06/08/2019 14:46:03---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = 'tragiaybao', `thoigian_tragiaybao` = '2019/08/06 14:46:02', `trangthai` = 2
+WHERE `soBD` = '19001110'
+
+
+tragiaybao---06/08/2019 14:46:03---UPDATE `tbl_goi` SET `stt` = '16'
+WHERE `ban` = 'buoc5'
+
+
+tragiaybao---06/08/2019 14:46:03---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc5', `stt` = '16'
+WHERE `soBD` = '19001110'
+
+
+tragiaybao---06/08/2019 14:46:14---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = NULL, `thoigian_tragiaybao` = NULL, `trangthai` = 1
+WHERE `soBD` = '19001110'
+
+
+tragiaybao---06/08/2019 14:46:14---UPDATE `tbl_goi` SET `stt` = 18
+WHERE `ban` = 'ban5'
+
+
+tragiaybao---06/08/2019 14:46:14---UPDATE `tbl_goi` SET `stt` = '4'
+WHERE `ban` = 'ban4'
+
+
+tragiaybao---06/08/2019 14:46:14---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2', `stt` = '4'
+WHERE `soBD` = '19001110'
+
+
+tragiaybao---06/08/2019 14:46:27---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = 'tragiaybao', `thoigian_tragiaybao` = '2019/08/06 14:46:27', `trangthai` = 2
+WHERE `soBD` = '19001110'
+
+
+tragiaybao---06/08/2019 14:46:27---UPDATE `tbl_goi` SET `stt` = '17'
+WHERE `ban` = 'buoc5'
+
+
+tragiaybao---06/08/2019 14:46:27---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc5', `stt` = '17'
+WHERE `soBD` = '19001110'
+
+
+thuhoso---06/08/2019 14:47:02---UPDATE `tbl_goi` SET `goi` = 16
+WHERE `ban` = 'buoc5'
+
+
+---06/08/2019 14:57:06---UPDATE `tbl_sinhvien` SET `noisinh` = '', `ngaycapcmnd` = '16/07/2017', `noicapcmnd` = 'Bắc Ninh', `gioitinh` = 'Nam', `doan` = 'Chưa', `FK_tongiao` = 'khong', `quequan` = '', `hokhau` = '', `FK_Dantoc` = '29', `diachi` = '', `chucvu` = '', `nangkhieu` = '', `noitotnghiep` = '', `email` = '', `sdt` = '0936858379', `hoten_bo` = '', `namsinh_bo` = '1980', `nghenghiep_bo` = 'Làm Nông', `sdt_bo` = '018238129', `hoten_me` = 'Nguyễn Thị B', `namsinh_me` = '1980', `nghenghiep_me` = 'Làm Nông', `sdt_me` = '098218213', `tinh` = NULL, `huyen` = NULL, `xa` = NULL
+WHERE `soBD` = '19001198'
+
+
+thuphieudiem---06/08/2019 14:57:30---UPDATE `tbl_goi` SET `stt` = 19
+WHERE `ban` = 'ban5'
+
+
+thuphieudiem---06/08/2019 14:57:30---UPDATE `tbl_goi` SET `stt` = '4'
+WHERE `ban` = 'ban2'
+
+
+thuphieudiem---06/08/2019 14:57:30---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc2', `stt` = '4'
+WHERE `soBD` = '19001198'
+
+
+thuphieudiem---06/08/2019 14:57:30---UPDATE `tbl_sinhvien` SET `nguoithu_phieudiem` = 'thuphieudiem', `thoigian_thuphieudiem` = '2019-08-06 14:57:30', `trangthai` = 1
+WHERE `soBD` = '19001198'
+
+
+admin---06/08/2019 14:58:13---INSERT INTO `ruthoso_sinhvien` (`masv`, `soBD`, `hp1_tra`, `sk_tra`, `yt_tra`, `tt1_tra`, `tongtra`, `hp1_con`, `sk_con`, `yt_con`, `tt1_con`, `tongcon`, `nguoi_ruthoso`, `thoigian_ruthoso`) VALUES ('19A44010003', '19001119', '0', '100000', '0', '0', '100000', '0', '50000', '0', '0', '50000', 'Admin', '2019-08-06 14:58:13')
+
+
+admin---06/08/2019 14:58:13---UPDATE `tbl_sinhvien` SET `trangthai` = 5, `tongtien_dathu` = 9010000
+WHERE `soBD` = '19001119'
+
+
+tragiaybao---06/08/2019 14:58:45---UPDATE `tbl_sinhvien` SET `nguoitra_giaybao` = 'tragiaybao', `thoigian_tragiaybao` = '2019/08/06 14:58:45', `trangthai` = 2
+WHERE `soBD` = '19001198'
+
+
+tragiaybao---06/08/2019 14:58:46---UPDATE `tbl_goi` SET `stt` = '18'
+WHERE `ban` = 'buoc5'
+
+
+tragiaybao---06/08/2019 14:58:46---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc5', `stt` = '18'
+WHERE `soBD` = '19001198'
+
+
+thuhoso---06/08/2019 15:02:41---UPDATE `tbl_sinhvien` SET `masv` = '19A12010004'
+WHERE `soBD` = '19001198'
+
+
+thuhoso---06/08/2019 15:02:41---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001198', 'hstt,gbnh', 'thuhoso', '2019/08/06 15:02:41')
+
+
+thuhoso---06/08/2019 15:02:41---UPDATE `tbl_sinhvien` SET `hoso` = 'hstt,gbnh', `nguoithuhs` = 'thuhoso', `thoigian_thuhs` = '2019/08/06 15:02:41', `trangthai` = 3
+WHERE `soBD` = '19001198'
+
+
+thuhoso---06/08/2019 15:02:59---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001198', 'thuhoso', '06/08/2019 15:02:59')
+
+
+thuhoso---06/08/2019 15:02:59---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001198'
+
+
+thuhoso---06/08/2019 15:03:09---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001198', 'thuhoso', '06/08/2019 15:03:09')
+
+
+thuhoso---06/08/2019 15:03:09---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001198'
+
+
+thuhoso---06/08/2019 15:03:15---UPDATE `tbl_sinhvien` SET `masv` = '19A12010005'
+WHERE `soBD` = '19001198'
+
+
+admin---06/08/2019 15:07:51---UPDATE `tbl_sinhvien` SET `masv` = '19A15010003'
+WHERE `soBD` = '19001110'
+
+
+admin---06/08/2019 15:07:51---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001110', 'hstt,gbnh', 'admin', '2019/08/06 15:07:51')
+
+
+admin---06/08/2019 15:07:51---UPDATE `tbl_sinhvien` SET `hoso` = 'hstt,gbnh', `nguoithuhs` = 'admin', `thoigian_thuhs` = '2019/08/06 15:07:51', `trangthai` = 3
+WHERE `soBD` = '19001110'
+
+
+admin---06/08/2019 15:08:10---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001110', 'admin', '06/08/2019 15:08:10')
+
+
+admin---06/08/2019 15:08:10---UPDATE `tbl_sinhvien` SET `trangthai` = 3
+WHERE `soBD` = '19001110'
+
+
+thuhoso---06/08/2019 15:11:56---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001116', 'bstn', 'thuhoso', '2019/08/06 15:11:56')
+
+
+thuhoso---06/08/2019 15:11:56---UPDATE `tbl_sinhvien` SET `hoso` = 'hstt,gbnh,bshb,bsks,cntn,bstn', `nguoithuhs` = 'thuhoso', `thoigian_thuhs` = '2019/08/06 15:11:56'
+WHERE `soBD` = '19001116'
+
+
+thutaichinh1---06/08/2019 15:13:03---INSERT INTO `hocphi_sinhvien` (`tamthu_hp1`, `tamthu_hp2`, `tamthu_sk`, `tamthu_the`, `tamthu_yt`, `tamthu_tt1`, `tamthu_tt2`, `masv`, `hocphi`, `nguoithu_hocphi`, `thoigian_thuhp`, `tongtien_thu`, `ghichu`, `soquyen`, `lanthu`, `pos`) VALUES ('920000', 0, '0', '', '0', '0', 0, '19A12010003', 'hp1', 'thutaichinh1', '2019/08/06 15:13:03', '920000', 'aa', '1', '2', '')
+
+
+thutaichinh1---06/08/2019 15:13:03---UPDATE `tbl_sinhvien` SET `hocphi` = 'hp1,sk,yt,tt1', `nguoithu_hocphi` = 'thutaichinh1', `nguoithuhp_nh` = 'aa', `thoigian_hocphi` = '2019/08/06 15:13:03', `trangthai` = 4, `tongtien_dathu` = 7944025
+WHERE `masv` = '19A12010003'
+
+
+thutaichinh1---06/08/2019 15:13:03---UPDATE `dm_canbo` SET `so` = 25
+WHERE `macb` = 'thutaichinh1'
+
+
+thutaichinh1---06/08/2019 15:13:03---UPDATE `hocphi_sinhvien` SET `so` = '24'
+WHERE `masv` = '19A12010003'
+AND `hocphi` = 'hp1'
+
+
+admin---06/08/2019 22:13:33---INSERT INTO `tbl_hethong` (`trangthai_hethong`, `macanbo_thuchien`, `tencanbo_thuchien`, `thoigian_thuchien`) VALUES ('dong', 'admin', 'Admin', '2019-08-06 22:13:33')
+
+
+admin---06/08/2019 22:13:48---INSERT INTO `tbl_hethong` (`trangthai_hethong`, `macanbo_thuchien`, `tencanbo_thuchien`, `thoigian_thuchien`) VALUES ('mo', 'admin', 'Admin', '2019-08-06 22:13:48')
+
+
+admin---06/08/2019 22:43:52---INSERT INTO `hoso_sinhvien` (`soBD`, `hoso`, `nguoithu_hoso`, `thoigian_thuhs`) VALUES ('19001117', 'utkv', 'admin', '2019/08/06 22:43:52')
+
+
+admin---06/08/2019 22:43:52---UPDATE `tbl_sinhvien` SET `hoso` = 'hstt,gbnh,cntn,bstn,bshb,bsks,utkv', `nguoithuhs` = 'admin', `thoigian_thuhs` = '2019/08/06 22:43:52'
+WHERE `soBD` = '19001117'
+
+
+admin---06/08/2019 22:44:47---INSERT INTO `hoso_sinhvien` (`soBD`, `nguoithu_giaycamdoan`, `thoigian_thugiaycamdoan`) VALUES ('19001117', 'admin', '06/08/2019 22:44:47')
+
+
+admin---06/08/2019 22:45:48---UPDATE `tbl_sinhvien` SET `masv` = '19A44010008'
+WHERE `soBD` = '19001117'
+
+
+admin---06/08/2019 22:46:10---UPDATE `tbl_goi` SET `stt` = '12'
+WHERE `ban` = 'buoc7'
+
+
+admin---06/08/2019 22:46:10---UPDATE `tbl_sinhvien` SET `buoctiep` = 'buoc7', `stt` = '12'
+WHERE `soBD` = '19001117'
+
+
